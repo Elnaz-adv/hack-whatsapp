@@ -7,10 +7,7 @@ try:
 
 # sending message to receiver
 # using pywhatkit
-    pywhatkit.sendwhatmsg("+4933333333333",
-						  "Hello from Mars",
-						  16, 
-                          22)
+    pywhatkit.sendwhatmsg("+4933333333333","Hello from Mars",16,22)
     print("Successfully Sent!")
 
 except:

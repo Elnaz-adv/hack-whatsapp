@@ -7,10 +7,10 @@ try:
 
 # sending message to receiver
 # using pywhatkit
-    pywhatkit.sendwhatmsg(phone_num = "+4933333333333",
-						  message = "Hello from Mars",
-						  time_hour = 16, 
-                          time_minute = 22)
+    pywhatkit.sendwhatmsg("+4933333333333",
+						  "Hello from Mars",
+						  16, 
+                          22)
     print("Successfully Sent!")
 
 except:
